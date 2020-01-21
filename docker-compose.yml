@@ -3,5 +3,6 @@ version: '3.5'
 services:
     ubuntu:
         build:
-            context: .
+            context: app
+            dockerfile: Dockerfile
         image: esycat/ubuntu
