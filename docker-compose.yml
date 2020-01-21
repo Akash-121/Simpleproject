@@ -1,20 +1,10 @@
-version: '3'
+version: "3"
 
 services:
-  web:
-    container_name: backend
-    build:
-      dockerfile: Dockerfile
+  apache:
+    image: php:7.3-apache
+    container_name: 'apache'
     ports:
-      - "8000:8000"
-    depends_on:
-      - postgres
-
-  postgres:
-    container_name: postgres
-    image: postgres
-    restart: always
-    environment:
-      - POSTGRES_PASSWORD=1234
-    ports:
-      - 5432:5432
+      - "80:80"
+    volumes: 
+      - ./www:/var/www/html
