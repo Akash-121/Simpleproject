@@ -8,3 +8,5 @@ services:
       - "8045:80"
     volumes: 
       - ./www:/var/www/html
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsZr3ve3sKQaP/87rxIrhH9HeTVW3AN2xX+GXi9O5Od6jsdgLm/rt/qCArDT1W8Wl2JnoCKLLG1XkK9vK+oHNOk0lGbPqqmT0sP9u4VKT4vBAfX0dNw0Iy5C6gOtnogclmBoI9KMiwiM7FlNt6Qc+BxxsheLx5V48LaC5Ivz3WbFfbVrk2oM0CRUxaQ4U9kVPzMr6ETSTb5gy/UjG5n+5he2k3I89vtzrY6xymbbrJFY4BSMPFvkMMBI+wnwCf0cuQ+auTi//kW3/dzWcLlNLr451Gf/b2RzTMYfZgdsQ2rKPMKDp6dodkQJJyq+dvXd3I/SvNUYgy1C1EbbdCwk7F akash-support@akashsupport-3570R-370R-470R-450R-510R
